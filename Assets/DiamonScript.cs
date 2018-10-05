@@ -33,11 +33,11 @@ public class DiamonScript : MonoBehaviour
         }
        if(Input.GetKey(KeyCode.W))
         {
-            transform.Translate(1000f * Time.deltaTime, 0, 0);
+            transform.Translate(10f * Time.deltaTime, 0, 0);
         }
        if(Input.GetKey(KeyCode.S))
         {
-            transform.Translate(-1000f * Time.deltaTime, 0, 0);
+            transform.Translate(-10f * Time.deltaTime, 0, 0);
         }
     }
 }
